@@ -1,0 +1,118 @@
+.contactSection {
+  padding: 60px 20px;
+  
+  /* background: #f8f9fa; */
+  text-align: center;
+  background: black;
+}
+
+.contactSection h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: white
+}
+
+.contactContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Contact Info */
+.contactInfo {
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+}
+
+.contactInfo p {
+  font-size: 1rem;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contactInfo a {
+  color: white;
+  text-decoration: none;
+}
+
+.contactInfo a:hover {
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.socialIcons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.socialIcons a {
+  font-size: 1.5rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  color: #003660;
+}
+
+/* Contact Form */
+.contactForm {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: white;
+}
+
+.contactForm button {
+  padding: 12px;
+  align-self: center;
+  background: #003660;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contactForm button:hover {
+  background: #0056a3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contactContainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contactInfo {
+    text-align: center;
+  }
+}

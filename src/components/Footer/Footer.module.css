@@ -1,0 +1,16 @@
+.footer {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  background-color: #111827; /* dark background */
+  color: #9ca3af; /* subtle light gray */
+  font-size: 1rem;
+  user-select: none;
+}
+
+/* Responsive font sizing */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.875rem;
+    padding: 1rem 0.5rem;
+  }
+}
